@@ -24,8 +24,10 @@ h1{
 }
 h2{
   color: #fff;
+  font-weight: 400;
   font-size: 16px;
   opacity: 0.9;
+  margin-top: 6px;
 }
 }
 `;
