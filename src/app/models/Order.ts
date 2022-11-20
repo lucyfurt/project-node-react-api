@@ -14,7 +14,7 @@ export const Order = model('Order', new Schema({
         type: Date,
         default: Date.now,
     },
-    product: {
+    products: {
         required: true,
         type: [{
             product:{

@@ -14,9 +14,9 @@ export async function createProduct(req: Request, res: Response){
             price: Number(price),
             category,
             ingredients: JSON.parse(ingredients),
-         
+
         });
-        
+
         res.status(201).json(product);
     }catch(error){
         console.log(error);
